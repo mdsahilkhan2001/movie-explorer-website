@@ -1,24 +1,27 @@
  # 🎬 Movie Explorer Website
 
-A React + Vite-based app that uses the TMDB API to display latest, popular, top-rated, and upcoming movies.
+A React + Vite movie browsing app using the TMDB API with fallback support and MyList management.
 
-## 🔧 Features
-- React with Vite
-- Material-UI for styling
-- State management with useReducer
-- API integration with TMDB (The Movie Database)
-- Fallback to local JSON data if API fails
-- My List with Local Storage
-- Movie Details with Cast, Crew, Similar Movies
+## 📸 Demo
 
-## 🧪 API and Postman
-- Postman collection file: [`postman/movie-api-collection.json`](./postman/movie-api-collection.json)
+![App Screenshot](src/assets/Screenshot.png)
 
-## 🖼️ Preview
-![App Screenshot](./src/assets/Screenshot.png)
+## 🚀 Features
+- Fetches movies using TMDB API (`now_playing`, `popular`, etc.)
+- Graceful fallback to mock JSON data on API failure
+- MyList feature using localStorage
+- Clean UI built with React + Vite
+- Postman API testing support
 
-## 🛠️ Setup
-1. Clone the repo
-2. Install dependencies:
-   ```bash
-   npm install
+## 🧪 Postman Collection
+
+Test all TMDB endpoints used:
+👉 [movie-api-collection.json](postman/movie-api-collection.json)
+
+## 🔧 Getting Started
+
+```bash
+git clone https://github.com/mdsahilkhan2001/movie-explorer-website.git
+cd movie-explorer-website
+npm install
+npm run dev
