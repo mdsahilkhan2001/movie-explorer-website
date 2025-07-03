@@ -1,0 +1,210 @@
+{
+	"info": {
+		"_postman_id": "003cab09-c9c3-438f-a9d7-5607f39ff238",
+		"name": "Movie Explorer TMDB API",
+		"description": "Collection to test TMDB movie endpoints for Movie Explorer Web App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46309129",
+		"_collection_link": "https://sahil-289650.postman.co/workspace/Sahil's-Workspace~4c652cb2-85b8-4acf-8f8a-3f7a37e60025/collection/46309129-003cab09-c9c3-438f-a9d7-5607f39ff238?action=share&source=collection_link&creator=46309129"
+	},
+	"item": [
+		{
+			"name": "Now Playing",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/now_playing?api_key=eec8ca18da6c9523e3f50a8c6f69c633",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"now_playing"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "eec8ca18da6c9523e3f50a8c6f69c633"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Popular",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/popular?api_key=eec8ca18da6c9523e3f50a8c6f69c633",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"popular"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "eec8ca18da6c9523e3f50a8c6f69c633"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Top Rated",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/top_rated?api_key=eec8ca18da6c9523e3f50a8c6f69c633",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"top_rated"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "eec8ca18da6c9523e3f50a8c6f69c633"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upcoming",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/upcoming?api_key=eec8ca18da6c9523e3f50a8c6f69c633",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"upcoming"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "eec8ca18da6c9523e3f50a8c6f69c633"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Movie Details (Example ID 950387)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/950387?api_key=eec8ca18da6c9523e3f50a8c6f69c633",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"950387"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "eec8ca18da6c9523e3f50a8c6f69c633"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Movie Credits (Cast/Crew)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/950387/credits?api_key=eec8ca18da6c9523e3f50a8c6f69c633",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"950387",
+						"credits"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "eec8ca18da6c9523e3f50a8c6f69c633"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Similar Movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.themoviedb.org/3/movie/950387/similar?api_key=eec8ca18da6c9523e3f50a8c6f69c633",
+					"protocol": "https",
+					"host": [
+						"api",
+						"themoviedb",
+						"org"
+					],
+					"path": [
+						"3",
+						"movie",
+						"950387",
+						"similar"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "eec8ca18da6c9523e3f50a8c6f69c633"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
